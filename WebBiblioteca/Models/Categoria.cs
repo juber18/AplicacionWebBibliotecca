@@ -14,6 +14,7 @@ namespace WebBiblioteca.Models
         [Required(ErrorMessage = "Campo obligatorio")]
         public string Descripcion { get; set; }
         //Propiedades de tipo dialogo: Prueba
+        //holaaaaaaaaaasvcsad
         public ICollection<Libro> Libro { get; set; }
     }
 }
