@@ -14,6 +14,7 @@ namespace WebBiblioteca.Models
         public string Nacionalidad { get; set; }
         //Propiedades de tipo diálogo
         //aaaaasssssggggg
+        //eeeee
         public ICollection<Libro> Libro { get; set; }
     }
 }
