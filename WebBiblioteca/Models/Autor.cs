@@ -13,7 +13,7 @@ namespace WebBiblioteca.Models
         [Required(ErrorMessage = "Campo obligatorio")]
         public string Nacionalidad { get; set; }
         //Propiedades de tipo diálogo
-
+        //aaaaasssss
         public ICollection<Libro> Libro { get; set; }
     }
 }
